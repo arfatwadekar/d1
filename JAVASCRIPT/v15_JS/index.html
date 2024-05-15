@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert and remove elements</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container red bg-green">
+        <div class="box" style="display: flex;" data-createdby="harry" data-conceptby="rohan" >Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+    
+    <!-- innerHtml -->
+    <!-- OuterHtml -->
+    <!-- TagName -->
+    <!-- NodeName -->
+    <!-- textContent -->
+    <!-- Hidden -->
+    <!-- hasAttribute -->
+    <!-- getAttribute -->
+    <!-- setAtrribute-->
+    <!-- attributes -->
+    <!-- remove -->
+    <!-- DesginMode = "on" -->
+    <!-- data attributes  -->
+    <!-- dataset -->
+    <!-- append -->
+    
+
+    <!--  -->
+    <script>
+        // let div = document.createElement("div");
+        // div.innerHTML = "I have been inserted <b>by harry</b>"
+        // div.setAttribute("class", "created");
+        // document.querySelector(".container").before(div);
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("beforebegin", "<b> I am under the water. Please h elp me here too much raining.... iuuuuooooo</b>")
+    </script>
+</body>
+</html>
